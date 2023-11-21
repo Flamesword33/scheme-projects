@@ -77,6 +77,15 @@
 ; integer?
 ;   checks if arguement is an integer
 
+(list data)
+    creates a list
+
+(list-ref list index)
+    Finds an element in a list, starts from left most position
+
+(list-tail list index)
+    Finds an element in a list, starts from right most position
+
 ; load
 ;   loads a file into the enviroment
 
