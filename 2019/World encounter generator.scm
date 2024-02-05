@@ -5,7 +5,14 @@
 ;;This rats nest is based off a random encounter table at the end of 
 ;; Tomb of annihilation. It also similates biome weather.
 
-;;no longer sure if this is an older copy or not.
+;; Back in 2019 I used meta programming in java to mass program this file.
+;; I put the basic structure of my define statements, switch statements and if/else statements
+;;   into a series of for loops with acompanying lists. Each list contained 
+;;   the names that changed and the values of the given table I was putting in.
+;;   I directly outputed said code to a print statement which I copied over. 
+;;   Currently I could output the same to a new or pre-existing file with c or python. 
+
+
 (define (basic_day)
     (rain (random 101))
     (todays_temp))
